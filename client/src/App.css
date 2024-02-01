@@ -1,42 +1,35 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+.homePage{
   text-align: center;
-}
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 10%;  box-shadow: 0 4px 8px rgba(12, 12, 12, 0.911); /* Đổ bóng với màu đen nhẹ */
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+  select{
+    width: 80%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    height: 30px;
   }
-  to {
-    transform: rotate(360deg);
+  button{
+    margin-bottom: 5%;
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: none;
   }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  button:active{
+    background-color: white;
+    color: black;
   }
+  
 }
-
-.card {
-  padding: 2em;
+.question{
+  font-size: 30px;
+  font-weight: bold;
 }
-
-.read-the-docs {
-  color: #888;
+.answer{
+  font-size: 20px;
+  font-weight: 100;
+  margin-left: 15px;
 }
